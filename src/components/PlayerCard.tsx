@@ -16,7 +16,7 @@ export const PlayerCard: FC<Props> = ({ player }) => {
         height={440}
       />
       <Image  
-          src={ `/images/image${ player.id }.jpeg` } 
+          src={ `/images/image${ player.id }.jpg` } 
           alt=''
           width={ 180 }
           height={ 180 }
